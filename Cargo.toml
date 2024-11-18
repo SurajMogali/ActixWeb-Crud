@@ -1,0 +1,26 @@
+[package]
+name = "crud-operation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+mongodb = "2.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15"
+futures = "0.3"
+anyhow = { version = "1.0", default-features = false }
+validator = "0.14"
+validator_derive = "0.14"
+uuid = { version = "1.0", features = ["v4"] }
+chrono = { version = "0.4", features = ["serde"] }
+sha256 = "1.5.0"
+jsonwebtoken = "9.3.0"
+lazy_static = "1.4"
+regex = "1"
+bcrypt = "0.12" 
+actix-web-httpauth = "0.6" 
+env_logger = "0.10"
+
+
